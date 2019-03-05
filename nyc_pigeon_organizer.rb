@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   pigeon_hash = {}
   data.each do |trait, quality|
     quality.each do |aspect, name|
+      binding.pry
       pigeon_hash[name] ||= pigeon_hash[name] = []
       pigeon_hash[name] << aspect
     end
