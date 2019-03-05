@@ -1,3 +1,8 @@
+require 'pry'
+
 def nyc_pigeon_organizer(data)
-  # write your code here!
+  pigeon_hash = {}
+  data.each do |trait, quality|
+    binding.pry
+  end
 end
